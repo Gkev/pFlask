@@ -20,7 +20,7 @@ def survey():
 
 @app.route('/success')
 def success():
-	render_template('success.html')	
+	return render_template('success.html')	
 
 
 app.run(debug=True)	
